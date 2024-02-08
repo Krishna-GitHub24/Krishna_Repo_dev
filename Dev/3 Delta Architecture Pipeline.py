@@ -7,17 +7,19 @@
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC # Overview
-# MAGIC
-# MAGIC This notebook constitutes a Delta Live Tables implementation of *Building automating a Data Pipeline*. This notebook is intended to be run as a DLT pipeline, not interactively.
-# MAGIC
-# MAGIC The result will consist of the following collection of tables:
-# MAGIC * A bronze table that ingests raw data
-# MAGIC * A silver table representing the bronze table with a cleaned up schema and basic standardization of the column values
-# MAGIC * A couple gold tables performing various aggregations against the silver table
-# MAGIC
-# MAGIC The dataset is provided as part of the collection of Databricks sample datasets and contains information related to movie productions.
+***Changing the content for testing purpose***
+
+%md
+# Overview
+
+This notebook constitutes a Delta Live Tables implementation of *Building automating a Data Pipeline*. This notebook is intended to be run as a DLT pipeline, not interactively.
+
+The result will consist of the following collection of tables:
+* A bronze table that ingests raw data
+* A silver table representing the bronze table with a cleaned up schema and basic standardization of the column values
+* A couple gold tables performing various aggregations against the silver table
+
+The dataset is provided as part of the collection of Databricks sample datasets and contains information related to movie productions.
 
 # COMMAND ----------
 
